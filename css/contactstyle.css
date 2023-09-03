@@ -1,0 +1,64 @@
+body {
+    background-color: #000;
+}
+body {
+    background-color: #000;
+    width: 100%;
+}
+#myicon a{
+    color: #000;
+}
+.sidebar {
+    /* background-color: aquamarine; */
+    width: 24%;
+    height: 100vh;
+    position: fixed;
+    left: -20%;
+    top: 0;
+    z-index: 3479;
+    display: flex;
+
+    align-items: space-between;
+
+}
+
+.outside {
+    width: 20%;
+    /* height: auto; */
+    background-color: #ffffff;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.inside {
+    width: 80%;
+    /* height: 100%; */
+    background-color: #0d0d0d;
+}
+
+.mylist {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    padding-top: 15px;
+    color: #ffffff;
+
+}
+
+.bottinside {
+    padding: 2rem;
+    color: #ffffff;
+}
+
+.icons a {
+    color: #000;
+}
+
+#clickableAwesomeFont {
+    cursor: pointer
+}
